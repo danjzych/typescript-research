@@ -24,7 +24,8 @@ var user1 = {
 var myUpdate = {
     username: 'DanielZ',
     age: 1,
-    bio: 'On 10/17/23, Daniel figured out how to use TpyScript partials.'
+    bio: 'On 10/17/23, Daniel figured out how to use TpyScript partials.',
+    potato: 'yum'
 };
 console.log(user1);
 console.log(updateUser(user1, myUpdate));

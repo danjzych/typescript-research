@@ -78,3 +78,13 @@ Strings:
 Homogeneous:
 
 - Values can be either strings or numbers in enums.
+
+## ReturnType
+
+ReturnType can be used to construct a type defined by the type of the return value of a function.
+
+In older verions of TypeScript, you must use the keyword `Awaited` to get the desired ReturnType, otherwise it will simply be a Promise. This is not the case in TypeScript 5.2.
+
+## Implements
+
+The keyword ‘implements’ can be used to confirm that a Class satisfies a particular interface. An error will be raised if a class fails to correctly implement it. Classes can implement multiple interfaces.

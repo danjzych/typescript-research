@@ -25,7 +25,8 @@ const user1: UserInterface = {
 const myUpdate = {
   username: 'DanielZ',
   age: 1,
-  bio: 'On 10/17/23, Daniel figured out how to use TpyScript partials.'
+  bio: 'On 10/17/23, Daniel figured out how to use TpyScript partials.',
+  potato: 'yum'
 }
 
 console.log(user1)
