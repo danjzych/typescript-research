@@ -49,4 +49,32 @@ const firstString: myUnionType = "a"; //all good!
 const secondString: myUnionType = "e"; //THROW AN ERROR!
 ```
 
-### Exclude
+### Enums
+
+A special "class" that defines a collection of constants (unchangeable variables). It allows us to declare a set of related values that can be **numbers or strings** as a set of named constants.
+
+Enums is a great way to organize our code to make it more readable and type-safe, as we can group constant values into one data structure.
+
+It provides flexibility that makes it easy to express and document our intentions and use cases when writing our code.
+
+It is ideally used in situations where there are distinct values that can be seen as constants, or in data sets where we know all possible values at compile time.
+
+Types:
+
+- Numeric
+- String
+- Heterogeneous
+
+Numeric:
+
+- Enums are number-based by default.
+- They increment just like array indices.
+- Can initialize your own values.
+
+Strings:
+
+- Values can also be strings.
+
+Homogeneous:
+
+- Values can be either strings or numbers in enums.
