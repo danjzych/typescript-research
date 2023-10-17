@@ -33,7 +33,9 @@ The opposite of this is `required`.
 
 ## Exclude
 
-To understand exclude, must first understand _union types_.
+<u><b>Union</u></b>: a variable that can store multiple types of values -> (type1, type2, ...) - Defines a variable with multiple types.
+
+<b><u>Discriminated Union</b></u>: a union made up of objects that have common properties that can be used to distinguish between them.
 
 ### Union Types
 
