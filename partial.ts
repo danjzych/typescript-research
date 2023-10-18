@@ -32,3 +32,6 @@ const myUpdate = {
 console.log(user1)
 
 console.log(updateUser(user1, myUpdate))
+
+// TO TRANSIPLE TO JS: npx tsc --outDir out partial.ts
+// TO RUN IN CONSOLE: node out/partial.js
